@@ -13,10 +13,12 @@
 	
 	<p style="color:red;">BY CLICKING TO ACCEPT THE TERMS FOUND IN THE PRIVACY POLICY AND TERMS AND CONDITIONS OF USE, YOU REPRESENT THAT YOU HAVE READ, UNDERSTOOD AND AGREED TO BE BOUND BY THIS POLICY AND THESE TERMS. IF YOU DO NOT AGREE TO BE BOUND BY THIS POLICY AND THESE TERMS, YOU MAY NOT ACCESS THE PASSWORD-PROTECTED AREAS OF THIS SITE.</p>
 	
+	
 
 	<br>
 	
-	<form>
+	<form action="action_page.php" style="border:1px solid #ccc">
+	<div class="container">
 	
 	<table>
 	<table align="center">
@@ -38,6 +40,24 @@
         <br></br>
         </td>
         </tr>
+   
+         <tr>
+            <td>
+                <label for="uemail">Email :</label>
+           
+                <input type="text" id="uemail" name="usermail">
+                <button type="button">Check</button>
+                </td>
+                <td>
+                <label>Use a valid E-mail address please,ONE E-MAIL FOR ONE REGISTRATION </label>
+            </td>
+        </tr>
+        
+        <tr>
+        <td>
+        <br></br>
+        </td>
+        </tr>
         
 	<tr>
 	<td>
@@ -51,13 +71,24 @@
         <br></br>
         </td>
         </tr>
+        
+        <tr>
+	<td>
+		<label for="conpwd">Confirm Password:</label>
+		<input type="password" id="conpwd">
+	</td>
+	</tr>
+	
+	<tr>
+        <td>
+        <br></br>
+        </td>
+        </tr>
 	
 	<tr>
 	<td>
 	<label for="gender">Gender:</label>
-	</td>
 	
-	<td>
 		<input type="radio" name="gender" id="male">
 		<label for="m">Male</label>
 	
@@ -82,7 +113,9 @@
 	</tr>
 	
 	
-	<tr>
+	
+        
+        <tr>
         <td>
         <br></br>
         </td>
@@ -203,6 +236,7 @@
 </form>
 
 <h5>Note: Never submit your other passwords and confidential information through forms.</h5>
+
 
 </body>
 
